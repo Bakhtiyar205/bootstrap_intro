@@ -1,0 +1,58 @@
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.background-color {
+  color: #fff;
+  background-color: gray;
+}
+
+.color {
+  color:#fff;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.hello-world {
+  width:100%;
+  height: 30vh;
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+.side-bar {
+  width: 100%;
+  height: 50vh ;
+  background-color: gray;
+}
+
+.row {
+  display: flex;
+}
+
+.margin-x {
+  margin-left: -10%;
+}
+
+.horizontal-line {
+  margin-top: 10px;
+}
+
+.btn-color {
+  background-color: #fff;
+  color: #333;
+  border: #333 1px solid;
+}
+
